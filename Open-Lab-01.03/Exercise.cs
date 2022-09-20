@@ -1,27 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace projekt2
+namespace Open_Lab_01._03
 {
-    class Program
+    public class Exercise
     {
-
-
-        static void Main(string[] args)
+        public int Addition(int number)
         {
-            Console.Write("Napis Cislo : ");
-            int number = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Cislo zvacsene o 1 = ");
-            Console.Write(number + 1);
-
-            
-
-
+           return number + 1;
+           
         }
     }
 }
